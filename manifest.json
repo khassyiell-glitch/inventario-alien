@@ -1,0 +1,16 @@
+{
+  "name": "Inventário ALIEN RPG",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "description": "Inventário por personagem, com itens ligados aos props da cena (peso, alcance, bônus, dano, quantidade e valor).",
+  "author": "Adilson",
+  "icon": "/inventario-alien/icon.svg",
+  "background_url": "/inventario-alien/bg.html",
+  "action": {
+    "title": "Inventário ALIEN",
+    "icon": "/inventario-alien/icon.svg",
+    "popover": "/inventario-alien/index.html",
+    "width": 700,
+    "height": 680
+  }
+}
