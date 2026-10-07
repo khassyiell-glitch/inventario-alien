@@ -15,6 +15,7 @@ input:focus,select:focus,button:focus-visible{outline:2px solid var(--ac);outlin
 .cap input{width:72px}
 #tot{display:flex;gap:12px;margin-left:auto;font-size:12px;color:var(--mu)}
 #tot b{color:var(--ac)}#tot .over,#tot .over b{color:var(--wr)}
+#close{background:none;border:1px solid var(--ln);color:var(--tx);border-radius:6px;cursor:pointer;padding:5px 12px;font:inherit}
 #add{margin:10px 14px 0;padding:9px 12px;border:1px dashed var(--ac);border-radius:8px;display:flex;gap:10px;align-items:center;justify-content:space-between;font-size:13px}
 #add[hidden]{display:none}
 #add button{background:var(--ac);color:#04201c;border:0;border-radius:6px;padding:7px 12px;font:inherit;font-weight:600;cursor:pointer;white-space:nowrap}
@@ -35,8 +36,8 @@ main{flex:1;overflow:auto;padding:12px 14px}
 </style></head>
 <body>
 <header><h1>Inventário</h1><select id="char" aria-label="Personagem"></select>
-<label class="cap">Carga máx.<input id="cap" type="number" min="0" step="0.5"></label><div id="tot"></div></header>
+<label class="cap">Carga máx.<input id="cap" type="number" min="0" step="0.5"></label><div id="tot"></div><button id="close" hidden>Fechar</button></header>
 <div id="add" hidden></div>
 <main id="list"></main>
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 </body></html>
